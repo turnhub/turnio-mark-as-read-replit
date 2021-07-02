@@ -12,5 +12,5 @@ An example Turn.io UI integration on Replit. This will automatically mark any me
 
 1. Click the `Run on Repl.it` button above and install this example into your Repl.it workspace.
 2. Get a Turn token and add it as a secret called `TOKEN` in Repl.it
-3. Set up your webhook in the Turn UI using the replit.URL.
+3. Set up your webhook in the Turn UI using the Repl.it URL.
 4. Send a message to your number and watch it being marked as read!
