@@ -25,7 +25,7 @@ def mark_read():
   
   [message] = json["messages"]
   message_id = message["id"]
-
+  print(f"PUT {HOST}/v1/messages/{message_id}")
   put_response = requests.put(f"{HOST}/v1/messages/{message_id}", 
     headers={
       "Authorization": f"Bearer {TOKEN}",
